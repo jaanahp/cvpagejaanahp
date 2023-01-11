@@ -1,0 +1,120 @@
+<!-- Olisin halunnut kiinnittää elementtien pituudet niin, että kolme contentbox -palikkaa oikealla ovat yhteensä aina yhtä pitkät kuin sidebar vasemmalla, mutta en
+onnistunut niin, että saisin toteutettua kuitenkin muotoilut vastaavasti kuin tässä ratkaisussa. Jos tähän löytyy vinkkejä, niin olisin iloinen. Toisessa ratkaisussa
+minulla oli container-div flex-containerina ja sidebar-div ja content-div flex-itemeina. Siinäkin sain tämän pituuden onnistumaan vain, jos laitoin sävymuotoilut content-diviin enkä 
+contentbox-luokkaan.  -->
+
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <title>CV Jaana Pusa</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <a name="top"></a>
+        <header>
+            <div id="header">
+                <p id="cvhead">CURRICULUM VITAE</p>
+            </div>
+        </header>
+        <section>
+            <div id="container">
+                    <div id="sidebar">
+                        <div id="blocks">
+                            <img id="omakuva" src="omakuva.png" alt="CV kuva">
+                            <h4 id="nimi">Jaana Pusa</h4>
+                            <div id="contacts">
+                            <a class="profilelink" title="LinkedIn-profiilin linkki" href="https://www.linkedin.com/in/jaana-pusa-98089bb7/"><i class="fa fa-linkedin-square" style="font-size:36px;color:rgb(0, 119, 181)"></i></a>
+                            <a class="profilelink" title="Github-repositorion linkki" href="https://github.com/jaanahp/"><i class="fa fa-github" style="font-size:36px;"></i></a>
+                            <a class="profilelink" title="Sähköpostilinkki" href="mailto:pusa.jaana@gmail.com"><i class="fa fa-envelope" style="font-size:36px;color:black"></i></a><br>
+                            </div>
+                            <p class="profiletext">Olen kehityshenkinen vahvalla talousosaamisella varustettu tuleva ohjelmistoalan ammattilainen. Opiskelen ensimmäistä vuotta 
+                                tieto- ja viestintätekniikan insinööriksi Hämeen Ammattikorkeakoulussa, kesällä 2022 valmistuin Careeriasta tieto- ja 
+                                viestintätekniikan perustutkintoon suuntautumisenani ohjelmistotuotanto. </p>
+                            <p class="profiletext">Voit ottaa yhteyttä profiinikuvani alta löytyvien linkkien kautta. Alta kuvagalleriasta näet harrastuksiani ja kiinnostuksenkohteitani:</p>
+                            <div id="gallery">
+                                <img class="galleryphoto" src="sup2.jpg" alt="Sup-lauta järvellä">
+                                <img class="galleryphoto" src="kansallispuisto.jpg" alt="Pitkospuut metsässä">
+                                <img class="galleryphoto" src="bengtskär.jpg" alt="Tyttö Bengtskärin majakan edessä kalliolla">
+                                <img class="galleryphoto" src="karhunkierros.jpg" alt="Karhunkierros luontokuva talvella">
+                                <img class="galleryphoto" src="kastelholma.jpg" alt="Kastelholman linna ulkoa kuvattuna kesällä">
+                                <img class="galleryphoto" src="taiteenkotitalo.jpg" alt="Taidemaalaus huoneen seinässä">
+                                <img class="galleryphoto" src="kiipeilypuisto.jpg" alt="Tyttö kiipeilypuiston köysissä">
+                                <img class="galleryphoto" src="behm.jpg" alt="Rita Behm laulaa savuisella lavalla">
+                                <img class="galleryphoto" src="caminitodelrey.jpg" alt="El Caminito del Rey kanjoni">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content">
+                        <div class="contentbox" id="education">
+                            <h4 class="heading">KOULUTUS</h4>
+                            <h5 class="contentheading">Hämeen ammattikorkeakoulu, tieto- ja viestintätekniikan insinööri</h5>
+                            <p class="years">8/2022 - </p>
+                            <p class="description">Perusopintoihin sisältyy ohjelmointia Pythonilla sekä C#:lla, HTML&CSS sekä Javascript sekä ketterät kehitysmenetelmät
+                                 (Scrum). Edellisen tutkinnon jäljiltä minulle jäi innostus React.js:ään ja JavaScriptiin sekä SQL tietokantoihin, joten näiden parissa 
+                                 aion jatkaa ensimmäisenä ja toisena opiskeluvuonna. Suunnitelmanani on myös valita ohjelmistokehityksen peruspalikoiden rinnalle 
+                                 ohjelmistorobotiikkaa, koneoppimista ja tekoälyä. </p>
+                            <h5 class="contentheading">Careeria, tieto- ja viestintätekniikan perustutkinto</h5>
+                            <p class="years">1/2020 - 6/2022</p>
+                            <p class="description">Full stack -ohjelmoinnin opiskelukokonaisuuksiin sisältyi ASP.NET sekä .NET Core -kehitys C#:lla, MS SQL Server ja 
+                                SQL-tietokannat, HTML&CSS ja Bootstrap. Päättöprojektina toteutin itsenäisesti Azureen SQL-tietokannan päälle REST API -rajapinnan 
+                                kautta toimivan React.js-sovelluksen joka löytyy GitHub-tililtäni.</p>
+                            <h5 class="contentheading">Lahden Ammattikorkeakoulu, liiketalouden koulutusohjelma, taloushallinnon tradenomi</h5>
+                            <p class="years">1/2007 - 5/2010 </p>
+                            <p class="description">Opiskelin yrityksen taloushallintoa ja siihen liittyviä juridisia puolia, kirjanpitoa, verotusta sekä 
+                                muita liiketoimintaan liittyviä kokonaisuuksia.</p>
+                        </div>
+                        <div class="contentbox contentdivider" id="experience">
+                            <h4 class="heading headingmargin">TYÖKOKEMUS</h4>
+                            <h5 class="contentheading">LähiTapiola Palvelut Oy, laskenta-asiantuntija</h5>
+                            <p class="years">5/2022 - </p>
+                            <p class="description">Kirjanpidon neuvonta erityiskysymyksissä. Ulkoisen laskennan tiimin käyttöön tulevien Excel VBA-makropohjien 
+                                suunnittelu, laadinta ja ylläpito. LähiTapiolassa työskentelyni aikana olen saanut mahdollisuuden osallistua useisiin 
+                                kehitysprojekteihin ja työpajoihin ja tämä on kasvattanut innostustani asioiden parantamiseen ja kehittämiseen</p>
+                            <h5 class="contentheading">LähiTapiola Palvelut Oy, pääkirjanpitäjä</h5>
+                            <p class="years">11/2015 - 7/2022</p>
+                            <p class="description">Vakuutusyhtiön kirjanpito, tilinpäätös ja veroilmoitukset. Lisävastuualueena käyttöomaisuuskirjanpidon 
+                                vetovastuu omassa tiimissä. Työtehtäviin on sisältynyt myös tiimiläisten neuvontaa.</p>
+                            <h5 class="contentheading">Rantalainen Lahti Oy / HS-Yrityspalvelu Oy, kirjanpitäjä</h5>
+                            <p class="years">9/2011 - 8/2015</p>
+                            <p class="description">Eri yhtiömuotojen kirjanpito, tilinpäätökset ja veroilmoitukset. Asiakkaita n. 30 kpl toiminimistä n. 
+                                20 työntekijän osakeyhtiöihin. </p>
+                        </div>
+                        <div class="contentbox contentdivider" id="skills">
+                            <h4 class="heading headingmargin">TAIDOT</h4>
+                            <table>
+                                <tr>
+                                    <th>Taito</th>
+                                    <th>Taso</th>
+                                </tr>
+                                <tr>
+                                    <td class="skill">C#, Python</td>
+                                    <td class="level">Perusteet</td>
+                                </tr>
+                                <tr>
+                                    <td class="skill">HTML, CSS</td>
+                                    <td class="level">Tyydyttävä</td>
+                                </tr>
+                                <tr>
+                                    <td class="skill">Javascript</td>
+                                    <td class="level">Perusteet</td>
+                                </tr>
+                                <tr>
+                                    <td class="skill">React.js, React.Native</td>
+                                    <td class="level">Perusteet</td>
+                                </tr>
+                                <tr>
+                                    <td class="skill">MS SQL Server ja SQL</td>
+                                    <td class="level">Tyydyttävä</td>
+                                </tr>
+
+                            </table>
+                            <p class="description returnlink">Palaa takaisin <a title="Linkki sivun yläosaan" href="#top">sivun yläosaan</a> </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </body>
+</html>
