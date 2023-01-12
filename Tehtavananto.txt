@@ -1,0 +1,22 @@
+Tehtävänanto:
+Tehtävänäsi on luoda websivu valitsemastasi aiheesta. Aihe voi olla esimerkiksi jokin harrastuksesi, peli yms. 
+Tavoitteena on tehdä vain yhden html-dokumentin kokoinen sivu, eli nyt ei tarvitse luoda kokonaista sivustoa 
+linkkeineen. 
+
+Tämä tehtävä on laajempi kokonaisuus, jossa tarkoituksena on soveltaa laajalti tähän mennessä opittuja asioita.
+Sisällytä sivulla jonkinlainen kuvagalleria (Flexbox vierekkäin asetteluun). 
+
+Arvosteltavia asioita on
+Sisällön laatu. Ei pelkkää lorem ipsumia ja tarpeeksi sisältöä.  
+Visuaalisuus. Värivalinnat ja sivun rakenne miellyttäviksi. 
+Kuvauskielten ja CSS virheettömyys. Validoi sivut HTML5 validaattorilla. 
+Responsiivisuus ja mobiiliystävällisyys! Sivulla tulee siis olla käytössä mediaqueryt ja viewport tagit. 
+Jotta aiemmin mainitut tekniikoiden osaaminen tulisi selvitettyä, tässä tehtävässä ei saa käyttää bootstrappiä 
+responsiivisuuden ratkaisemiseen.
+Saavutettavuus. Huomioi saavutettavuusvaatimukset.fi -sivuston WCAG-vaatimukset 
+(ks saavutettavuusvideot) sivussasi!
+
+Opettajan arviointi:
+6/6
+Hyvä! Kuvauskielet validia tavaraa. Sivuston rakenne ja ulkoasu on siisti ja selkeä! Vaikuttava tuo 
+FullStack tausta. Menee siististi mobiiliin!
