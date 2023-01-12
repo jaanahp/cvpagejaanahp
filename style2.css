@@ -2,7 +2,7 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 1200px;
     margin: 0 auto;
-    background-image: url(background.jpg);
+    background-image: url(sup2.jpg );
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,18 +12,19 @@ body {
 /* Header and navbar */
 
 #header {
-    width: 95%;
+    width: 90%;
     margin: 0.6em auto;
     color: rgb(117, 112, 112);
     text-align: center;
     padding-bottom: 0px;
     background-color: #ffffffd7;
     border-radius: 5PX;
+    opacity: 0.9;
 }
 
 #cvhead {
     width: 100%;
-    border-bottom: 3px double rgba(8, 8, 77);
+    border-bottom: 4px double rgba(8, 8, 77);
     margin-bottom: 0;
     padding-top: 0.5em;
 }
@@ -127,6 +128,7 @@ body {
     width: 80%;
     margin-top: 0;
     padding-left: 0.5em;
+    opacity: 0.9;
 }
 
 .contentbox {
